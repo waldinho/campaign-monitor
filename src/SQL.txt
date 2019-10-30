@@ -1,0 +1,46 @@
+QUESTION 5
+
+===A===
+
+SELECT * FROM Orders
+WHERE CustomerID=4;
+JOIN Salesperson
+ON Salesperson.SalespersonID=Orders.SalespersonID;
+SELECT Salesperson.Name
+FROM Salesperson
+
+===B===
+
+SELECT * FROM Orders
+WHERE NOT CustomerID=4;
+JOIN Salesperson
+ON Salesperson.SalespersonID=Orders.SalespersonID;
+SELECT Salesperson.Name
+FROM Salesperson
+
+===C===
+
+SELECT Salesperson.name
+FROM Salesman
+JOIN Orders 
+ON Salesperson.SalespersonID=Orders.SalespersonID;
+GROUP BY Salesperson.SalespersonID
+HAVING count(CustomerID) > 2;
+
+
+QUESTION 5
+
+===A===
+
+SELECT * FROM Salesperson 
+ORDER BY Salary DESC
+SELECT * from Salesperson
+WHERE row=3
+
+===B===
+
+No idea.
+
+===C===
+
+No idea.

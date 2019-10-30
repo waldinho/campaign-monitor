@@ -1,1 +1,13 @@
+body {
+  text-align: left;
+  margin:10%;
+  font-family: 'Courier New', Courier, monospace;
+  width: 50%;
+  background: #789789
+}
 
+button {
+  margin: 5%;
+  background: #000;
+  color: #fff;
+}
